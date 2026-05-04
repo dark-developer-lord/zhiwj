@@ -1,0 +1,55 @@
+```
+# Dependencies
+node_modules/
+.zig/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env.local
+.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Compiled JavaScript
+*.js.map
+*.jsx.map
+*.ts.map
+*.tsx.map
+
+# Next.js
+.npm/
+*.npm
+build-info.json
+.cache/
+
+# Sanity
+.sanity/
+```
