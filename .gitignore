@@ -1,7 +1,6 @@
 ```
 # Dependencies
 node_modules/
-.zig/
 
 # Build outputs
 dist/
@@ -13,43 +12,49 @@ out/
 .env.local
 .env
 
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Logs
 *.log
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
+# Coverage
 coverage/
-*.lcov
+htmlcov/
+.coverage
 
-# Temporary folders
-tmp/
-temp/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+__pypackages__/
 
-# Compiled JavaScript
-*.js.map
-*.jsx.map
-*.ts.map
-*.tsx.map
+# macOS
+.DS_Store
 
-# Next.js
-.npm/
-*.npm
-build-info.json
-.cache/
+# Windows
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
-# Sanity
-.sanity/
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
 ```
